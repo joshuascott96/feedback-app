@@ -3,6 +3,7 @@ function RatingSelect( { select, selected }) {
     const handleChange = (e) => {
         select(+e.currentTarget.value)
     }
+
     return (
     <ul className='rating'>
       {Array.from({ length: 10 }, (_, i) => (
